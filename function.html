@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Family Memmbers </h1>
+    <div class="familyMem"></div>
+
+    <div class="formTab">
+        <h2>Your Name is <span id="nameOut"></span></h2>
+        <input type="text" id="nameDisp"><br>
+        <button id="nameRes">Submit</button>
+    </div>
+
+    <div>
+        <h2>On Change function </h2>
+         <h3>Your live text here : <span id="onchangeText"></span></h3>
+            <input type="text" id="onchangeBox" onKeyPress="pressfun()">
+        <br>
+
+    </div>
+
+    <div>
+        <h2>Test Two</h2>
+         <h3>Your live text here : <span id="textTwocontent"></span></h3>
+            <input type="text" id="testTwo">
+        <br>
+
+    </div>
+
+
+    <div style="background-color: red; padding: 50px;">
+        <div style="font-size: 60px;" id="outputOper">0</div>
+        <button style="padding-right: 20px;" id="add">Add</button>
+        <button style="padding-right: 20px;" id="reset">Reset </button> 
+        <button style="padding-right: 20px;" id="minus">Minus </button> 
+    </div>
+    <script src="fun.js"></script>
+</body>
+</html>
